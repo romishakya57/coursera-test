@@ -1,3 +1,7 @@
+(function() {
+  'use strict';
+
+angular.module
 var student={
   name:"",
   type:"student"
@@ -25,3 +29,4 @@ function CalculatorNumericOutput(event){
 
 var output="Total Numeric value of person's name is"+totalNameValue;
 document.getElementById('output').innerText=output;
+})();
